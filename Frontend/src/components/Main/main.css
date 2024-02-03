@@ -1,0 +1,56 @@
+.searchBox {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.searchBox input {
+  background: silver;
+  border: 2px solid brown;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 30%;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.searchBox input:hover {
+  border: 4px solid darkcyan;
+  background-color: #f8f8f8;
+  outline: none;
+}
+
+.containerAnimeList {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 1.5rem;
+  margin: 5rem;
+}
+
+/* Personalizar la barra de desplazamiento */
+.containerAnimeList::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Fondo de la barra de desplazamiento */
+.containerAnimeList::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Barra de desplazamiento */
+.containerAnimeList::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Barra de desplazamiento al pasar el mouse */
+.containerAnimeList::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

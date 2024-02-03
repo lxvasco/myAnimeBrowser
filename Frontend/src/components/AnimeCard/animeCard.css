@@ -1,0 +1,29 @@
+.cardBody {
+  padding: 1rem;
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  flex-grow: inherit;
+  width: 16rem;
+  text-decoration: none;
+}
+
+.cardBody .cardInfo {
+  padding: 1rem;
+}
+
+.cardBody .cardTitle {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: brown;
+  font-size: 1.3rem;
+}
+
+.cardBody .score {
+  color: darkcyan;
+}
