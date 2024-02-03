@@ -1,9 +1,20 @@
 const express = require("express");
+const bodyParser = require("body-parser");
+
 const PORT = process.env.PORT || 3001;
 const app = express();
 
+app.use(bodyParser.json());
+
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Api para mi Anime Browser!");
+});
+
+app.post("/scoresAverage", (req, res) => {
+  const scores = req.body;
+  const sum = scores.reduce((acc, curr) => acc + curr, 0);
+  const avg = sum / scores.length;
+  res.json({ avg });
 });
 
 app.listen(PORT, () => {
