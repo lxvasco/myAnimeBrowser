@@ -7,3 +7,7 @@
   margin: 0;
   font-family: "Poor Story", system-ui;
 }
+
+.App {
+  background-color: darkgray;
+}
