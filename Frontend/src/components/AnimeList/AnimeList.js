@@ -1,7 +1,7 @@
 import "./animeList.css";
 import AnimeCard from "../AnimeCard/AnimeCard";
 
-function AnimeList({ search, animeData }) {
+function AnimeList({ animeData }) {
   return (
     <>
       {animeData &&

@@ -38,7 +38,7 @@ function Main() {
           setScoreAvg(data);
         })
         .catch((error) => {
-          console.log(error);
+          setError(error);
         });
     }
   }, [animeData]);

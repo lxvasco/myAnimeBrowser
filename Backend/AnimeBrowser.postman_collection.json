@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "01892ad3-d17b-4730-808b-6c85ad71967a",
+		"name": "AnimeBrowser",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14199820"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/scoresAverage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[90, 85, 78]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/scoresAverage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"scoresAverage"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

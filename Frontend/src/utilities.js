@@ -1,4 +1,4 @@
-// fetch to API
+// Fetch to External API
 
 const getAnimeData = async (search) => {
   const response = await fetch(

@@ -5,7 +5,10 @@
   align-items: center;
   color: brown;
   font-size: 2rem;
-  height: 10vh;
   border-top: 2px solid red;
   margin: 1rem;
+}
+
+.footer .subtitle {
+  text-align: center;
 }
